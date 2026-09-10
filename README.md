@@ -42,4 +42,6 @@ At the end of this laboratory activity, students should be able to:
 **Methodology:**
 1. **Multi-condition Masking:** Instead of writing multiple chained `OR` statements, the pandas `.isin()` method is used on the `Model` column. A list of the target models `['Datsun 710', 'Lotus Europa', 'Ferrari Dino']` is passed as the argument.
 2. **Simultaneous Column Selection:** The `.loc[]` indexer is deployed. The row condition is the `.isin()` mask, and the column condition is the required list `['Model', 'mpg', 'cyl', 'hp', 'gear']`.
-3. **Validation:** The `.shape` of the resulting DataFrame (`selected_cars`) is printed to verify that it meets the strict structural requirement of exactly 3 rows and 5 columns.
+
+README file Version History: September 10, 2026 - Initial README output uploaded.
+4. **Validation:** The `.shape` of the resulting DataFrame (`selected_cars`) is printed to verify that it meets the strict structural requirement of exactly 3 rows and 5 columns.
